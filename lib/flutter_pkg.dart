@@ -1,5 +1,5 @@
 library flutter_pkg;
 
-class KelvinToCelcius {
-  String convert(int value) => (value - 273).toStringAsFixed(1);
+String kelvinToCelsius(double kelvin) {
+  return (kelvin - 273.15).toStringAsFixed(1);
 }
